@@ -7,9 +7,9 @@ import time
 # Made by /u/DiamondxCrafting.
 
 try:
-    reddit = praw.Reddit(client_id=client_id, client_secret=client_secret,
-                         username=username, password=password,
-                         user_agent=user_agent)
+    reddit = praw.Reddit(client_id='', client_secret='',
+                         username='', password='',
+                         user_agent='')
 except Exception as e:
     print("#Login failed.", e)
 
